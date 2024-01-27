@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main() {
+    //Data type
+    // int = Integer
+    // double = floating point
+
+    //Variables
+    int x = 10;
+    int y = 3;
+    int z = x + y; // Addition
+    int a = x - y; // Subtraction
+    int b = x * y; // Multiplication
+    int c = x / y; // Division
+    int d = x % y; // Modulus = Remainder of division
+
+    std::cout << z;
+    
+    return 0;
+}
