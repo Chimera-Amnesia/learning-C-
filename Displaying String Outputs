@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;                               // lets you simplify string outputs and not need std...
+int main ()                                        // Please reference line 16
+{
+
+// Variables
+    int x = 10;
+    int y = 20;
+
+//operations
+    std::cout << "x = ";
+    std::cout << x << std::endl;                   // std::endl means end line, and display on new line
+
+    std::cout << "x = " << x << std::endl;         // this line is the same as the above 2 lines
+
+    cout << "x = " << x << " & y = " << y << endl; // This is simplified as we use the namespace command to imply...
+                                                   // that "std::" is always written in front of the function.
+    return 0;
+}
