@@ -1,0 +1,24 @@
+// Area of a Circle Calc
+#include <iostream>
+using namespace std;
+int main ()
+{
+ //Variables & Constant
+ double radius; // Input from user
+ double area; // Calculateing using radius
+ const double pi-3.1416;
+ 
+ //prompt user
+ cout << "Enter Radius:";
+ cin >> radius;
+ 
+ // Calculating Area
+ area = pi*radius*radius;
+ 
+ //Display Area
+ cout << "the area of the circle is :";
+ cout << area << endl;
+ 
+ // End Program
+ return 0;
+ }
