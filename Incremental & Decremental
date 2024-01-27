@@ -1,24 +1,26 @@
-include <iostream>
+#include <iostream>
 int main ()
 {
 
 // Variables
-int x = 10;
-int y = 10;
+    int x = 10;
+    int y = 10;
 
 //operations
-x = x + 1;
-x++; // this is the Incremental notion, and means the same thing as the line above
+    x = x + 1;
+    x++; // this is the Incremental notion, and means the same thing as the line above
 
-y = y - 1;
-y--;  // This is Decimental notation, and means the name as the line above
+    y = y - 1;
+    y--;  // This is Decremental notation, and means the name as the line above
 
-//
+//further examples
 
-int a = 10;
-int b = x++; // y=10, x=11
-int c = ++x: // z=11, x=11
+    int a = 10;
+    int b = x++; // y=10, x=11
+    int c = ++x; // z=11, x=11 // If this was the only statement
 
-std::cout << b, " ", cc
-return 0;
+    std::cout << b;
+    std::cout << " ";
+    std::cout << c;
+    return 0;
 }
