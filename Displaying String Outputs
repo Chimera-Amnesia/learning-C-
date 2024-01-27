@@ -27,15 +27,20 @@ int main ()          // Please reference line 16
 
 // Variables
     double sales = 95000.00;
-    double state_tax = sales * 0.04;
-    double county_tax = sales *0.02;
-    double total_tax = state_tax + county_tax;
 
-//operations
+    const double stateTaxRate = 0.04;
+    double stateTax = sales * stateTaxRate;
+
+    const double counTaxRate = 0.02;
+    double countyTax = sales * counTaxRate;
+
+    double totalTax = stateTax + countyTax;
+
+//Output
     cout << "Your total sales were $" << sales << endl;
-    cout << "Your state taxes were $" << state_tax << endl;
-    cout << "Your county taxes were $" << county_tax << endl;
-    cout << "Your total taxes paid were $" << total_tax << endl;
-    
+    cout << "Your state taxes were $" << stateTax << endl;
+    cout << "Your county taxes were $" << countyTax << endl;
+    cout << "Your total taxes paid were $" << totalTax << endl;
+
     return 0;
 }
